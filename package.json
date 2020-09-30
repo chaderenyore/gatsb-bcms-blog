@@ -1,0 +1,61 @@
+{
+  "name": "@becomes/gatsby-starter",
+  "private": true,
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "env-cmd gatsby develop --host 0.0.0.0",
+    "serve": "gatsby serve",
+    "build": "gatsby build",
+    "bundle": "node bundle.js",
+    "bundle:dev": "env-cmd node bundle.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
+    "bcms:pull-content": "bcms-ssgf --pull-content",
+    "bcms:pull-media": "bcms-ssgf --pull-media",
+    "bcms:call-functions": "bcms-ssgf --call-functions",
+    "bcmsd:pull-content": "env-cmd bcms-ssgf --pull-content",
+    "bcmsd:pull-media": "env-cmd bcms-ssgf --pull-media",
+    "bcmsd:call-functions": "env-cmd bcms-ssgf --call-functions"
+  },
+  "dependencies": {
+    "@becomes/cms-client": "^1.0.8",
+    "@becomes/cms-ssgf": "^1.0.10",
+    "gatsby": "^2.24.66",
+    "gatsby-plugin-manifest": "^2.4.27",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sitemap": "^2.4.12",
+    "gatsby-plugin-typescript": "^2.4.18",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.1.0",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "env-cmd": "^9.0.3",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/becomesco/gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/becomesco/gatsby-starter/issues"
+  }
+}
