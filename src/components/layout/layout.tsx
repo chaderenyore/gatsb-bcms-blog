@@ -13,7 +13,7 @@ interface Props {
     name: string;
     content: string;
   }>;
-  children?: React.ReactNodeArray;
+  children?: React.ReactNode | React.ReactNodeArray;
   OGImageUri?: string;
 }
 
