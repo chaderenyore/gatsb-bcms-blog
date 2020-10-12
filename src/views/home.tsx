@@ -8,7 +8,7 @@ interface Props {
 const HomeView: React.FunctionComponent<Props> = ({ name }: Props) => {
   return (
     <Layout>
-      <div>{name}</div>
+      <h1>{name}</h1>
     </Layout>
   );
 };
