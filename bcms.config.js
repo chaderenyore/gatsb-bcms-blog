@@ -1,32 +1,33 @@
-const { ConfigBuilder } = require('@becomes/cms-ssgf');
+const { BCMSMostBuilder } = require('@becomes/cms-most');
 
-module.exports = ConfigBuilder.build({
+module.exports = BCMSMostBuilder({
+  cms: {
+    origin: process.env.BCMS_API_ORIGIN,
+    key: {
+      id: process.env.BCMS_API_KEY,
+      secret: process.env.BCMS_API_SECRET,
+    },
+  },
   entries: [],
   functions: [],
-  pageParser: {
-    gatsby: [],
-  },
   media: {
-    ppc: 2,
     output: '/static/media',
     sizeMap: [
       {
         width: 350,
-        quality: 70,
       },
       {
         width: 600,
-        quality: 70,
       },
       {
         width: 1200,
-        quality: 70,
       },
       {
         width: 1920,
-        quality: 70,
       },
     ],
-    process: true,
+  },
+  parser: {
+    gatsby: [],
   },
 });

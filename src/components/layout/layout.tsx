@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Footer from './footer';
 import HeadMeta from './head-meta';
 import Header from './header';
@@ -13,7 +13,7 @@ interface Props {
     name: string;
     content: string;
   }>;
-  children?: React.ReactNodeArray;
+  children?: React.ReactNode | React.ReactNodeArray;
   OGImageUri?: string;
 }
 

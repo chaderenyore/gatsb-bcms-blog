@@ -1,8 +1,8 @@
-const { BCMS } = require('@becomes/cms-ssgf');
-const bcms = new BCMS();
+const { BCMSMost } = require('@becomes/cms-most');
+const bcmsMost = BCMSMost();
 
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions;
   console.log('>>> Creating pages <<<');
-  await bcms.pageParser(createPage);
+  await bcmsMost.parser.gatsby(createPage);
 };

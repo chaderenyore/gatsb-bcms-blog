@@ -73,8 +73,6 @@ yarn-error.log
 
 # BCMS
 .env
-bcms.temp.json
-bcms.cache.json
-bcms-media.cache.json
-static/media/
-docker-cache
+/static/media/
+/docker-cache
+/bcms
