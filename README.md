@@ -4,14 +4,15 @@ This is a Gatsby project with a typescript, made to work with Becomes CMS. There
 
 ## Table of content
 
-- [Getting started](#getting-started)
-- [Structure](#structure)
-- [Usage](#usage)
-  - [Creating a view](#usage-view)
-  - [Creating a template](#usage-template)
-  - [Adding a template to the page parser](#usage-page-parser)
-  - [Working with images](#usage-image)
-  - [Summary](#usage-summary)
+- [Website for _______](#website-for-_______)
+  - [Table of content](#table-of-content)
+  - [Getting started](#getting-started)
+  - [Structure](#structure)
+  - [Usage](#usage)
+    - [Creating a view](#creating-a-view)
+    - [Creating a template](#creating-a-template)
+    - [Adding template to the page parser](#adding-template-to-the-page-parser)
+    - [Working with images](#working-with-images)
 
 ## Getting started
 

@@ -1,0 +1,7 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  @include fluid(padding-left padding-right, 500px, 1850px, 15px, 80px);
+}
