@@ -84,4 +84,5 @@ yarn-error.log
 /src/types/**/*.d.ts
 /src/types/**/*.js
 /src/types/**/*.js.map
-/regions-pdf.html
+
+/tsconfig.parser.jsoninfo

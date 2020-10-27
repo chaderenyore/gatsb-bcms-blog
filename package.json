@@ -11,6 +11,7 @@
     "build": "gatsby build",
     "bundle": "node bundle.js",
     "bundle:dev": "env-cmd node bundle.js",
+    "build:parser": "tsc -p tsconfig.parser.json",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
