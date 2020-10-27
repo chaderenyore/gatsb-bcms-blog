@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { HomeView } from '../views';
 
 const Index: React.FunctionComponent = () => {

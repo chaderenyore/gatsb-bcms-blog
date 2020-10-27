@@ -76,3 +76,12 @@ yarn-error.log
 /static/media/
 /docker-cache
 /bcms
+/parser-dist
+/src/parser-dist
+/src/parser/**/*.d.ts
+/src/parser/**/*.js
+/src/parser/**/*.js.map
+/src/types/**/*.d.ts
+/src/types/**/*.js
+/src/types/**/*.js.map
+/regions-pdf.html

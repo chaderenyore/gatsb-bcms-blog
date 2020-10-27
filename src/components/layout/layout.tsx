@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Footer from './footer';
 import HeadMeta from './head-meta';
 import Header from './header';
