@@ -67,8 +67,8 @@ export const query = graphql`
         meta {
           en {
             items {
-              name
-              ref {
+              text
+              page {
                 meta {
                   en {
                     slug

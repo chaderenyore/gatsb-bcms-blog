@@ -13,7 +13,7 @@ const Header: FC<Props> = (props) => {
         {props.items.map((item, itemIdx) => {
           return (
             <li key={itemIdx}>
-              <Link to={`/${item.ref.meta.en.slug}`}>{item.name}</Link>
+              <Link to={`/${item.page.meta.en.slug}`}>{item.text}</Link>
             </li>
           );
         })}
