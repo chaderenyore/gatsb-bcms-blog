@@ -28,6 +28,18 @@ module.exports = {
   rules: {
     'react/prop-types': 'off', // Disable prop-types as we use TypeScript for type checking
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'no-console': 'warn',
+    'no-debugger': 'warn',
+    'no-shadow': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      2,
+      { args: 'all', argsIgnorePattern: '^_' },
+    ],
+    'no-unused-labels': 'error',
+    'no-unused-expressions': 'error',
+    'no-duplicate-imports': 'error',
+    'no-anonymous-exports-page-templates': 'warn',
+    'limited-exports-page-templates': 'warn',
   },
   overrides: [
     // Override some TypeScript rules just for .js files
