@@ -3,3 +3,5 @@
 /parser-dist
 /.cache
 /docker-cache
+gatsby-config.js
+gatsby-node.js
