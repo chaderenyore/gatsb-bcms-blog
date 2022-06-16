@@ -1,6 +1,5 @@
 import { BCMSImageConfig } from 'gatsby-source-bcms/components';
 import React, { FC, PropsWithChildren } from 'react';
-import { HeaderEntry } from '../../bcms/types-ts';
 import Header from './header';
 
 BCMSImageConfig.cmsOrigin =
@@ -9,16 +8,10 @@ BCMSImageConfig.cmsOrigin =
 BCMSImageConfig.publicApiKeyId =
   process.env.GATSBY_BCMS_API_PUBLIC_KEY || '629dcd4dbcf5017354af6fe8';
 
-interface Props {
-  header: {
-    bcms: HeaderEntry;
-  };
-}
-
-const Layout: FC<PropsWithChildren<Props>> = (props) => {
+const Layout: FC<PropsWithChildren<unknown>> = (props) => {
   return (
     <div className="layout">
-      <Header items={props.header.bcms.meta.en.items} />
+      <Header />
       <main className="layout--content">{props.children}</main>
     </div>
   );
