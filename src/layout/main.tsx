@@ -1,4 +1,4 @@
-import { BCMSImageConfig } from 'gatsby-source-bcms/components';
+import {BCMSImageConfig} from '@becomes/cms-most/frontend'
 import React, { FC, PropsWithChildren } from 'react';
 import Header from './header';
 
