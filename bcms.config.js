@@ -1,0 +1,1 @@
+module.exports = {"plugins":[],"cms":{"origin":"http://localhost:8080","key":{"id":"6433b6994c02e25452a8a947","secret":"4107ecd203ff708a1789439376934e315781d66134d6c0da058bc87583f6e0c9"}},"media":{"download":false,"origin":"http://localhost:8080","publicApiKeyId":"6433b6994c02e25452a8a947"}}
